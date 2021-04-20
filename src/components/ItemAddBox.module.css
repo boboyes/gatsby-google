@@ -1,0 +1,93 @@
+.box{
+  width: 112px;
+  height: 112px;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  cursor: pointer;
+  text-decoration: none;
+}
+.box:hover{
+  background:rgba(241, 243, 244, 1);
+}
+.box:hover .btnBox{
+  opacity: 1;
+}
+.icon{
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background: rgba(95,99,104,.3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.name{
+  font-weight: 400;
+  overflow: hidden;
+  text-align: center;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  margin-top: 6px;
+  padding: 2px 8px;
+  width: 88px;
+  color: black;
+  font-size: 13px;
+  text-decoration: none;
+}
+.btnBox{
+  position: absolute;
+  right: 0;
+  top: 4px;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  transition: all .2s .5s;
+  background: red;
+  opacity: 0;
+}
+.logo{
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  outline: none;
+}
+.editBox{
+  width: 128px;
+  height: 80px;
+  box-shadow: 0 0 4px rgba(0, 0, 0, .4);
+  padding: 8px 0;
+  background: white;
+  position: absolute;
+  right: 0;
+  border-radius: 4px;
+  box-sizing: border-box;
+  z-index: 2;
+}
+.editBtn{
+  border: none;
+  outline: none;
+  background: none;
+  -webkit-tap-highlight-color: transparent;
+    background: none;
+    border: none;
+    border-radius: 0;
+    box-sizing: border-box;
+    font: inherit;
+    min-height: 32px;
+    line-height: 32px;
+    padding: 0 24px;
+    text-align: start;
+    user-select: none;
+    width: 100%;
+    font-size: 13px;
+    color: #202124;
+    top: 0;
+    cursor: pointer;
+}
+.editBtn:hover{
+  background: rgba(95, 99, 104, .5);
+}

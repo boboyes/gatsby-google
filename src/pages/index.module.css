@@ -1,0 +1,36 @@
+/* style.css */
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100vw;
+  height: 100vh;
+  justify-content: flex-start;
+  align-items: center;
+  /* padding-top: 150px; */
+}
+.logo{
+  margin-top: 150px;
+  color: red;
+  width: 272px;
+  height: 92px;
+  margin-bottom: 50px;
+  background-image: url('/static/google_logo.svg');
+}
+.listBox{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 70%;
+  min-width: 337px;
+  max-width: 561px;
+  margin-top: 20px;
+}
+.dialogMask{
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0,0,0,.6);
+  position: absolute;
+  z-index: 1;
+}
