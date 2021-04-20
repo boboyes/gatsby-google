@@ -1,5 +1,5 @@
 import React,{ useState } from 'react'
-import * as item from './ItemBox.module.css'
+import * as item from './itemBox.module.css'
 
 export default function ItemBox({removeItem,ite,state,setstate,settitle,setdialog,showEdit,goEdit}) {
   const handleEdit =  (flag,ite,e) => {
