@@ -26,7 +26,7 @@
   position: absolute;
   left: 15px;
   top: 0;
-  background: url('/static/search.svg') no-repeat center;
+  background: url('../static/search.svg') no-repeat center;
 }
 .radio{
   width: 26px;
@@ -34,5 +34,5 @@
   position: absolute;
   right: 20px;
   top: 0;
-  background: url('/static/googlemic_clr_24px.svg') no-repeat center;
+  background: url('../static/googlemic_clr_24px.svg') no-repeat center;
 }

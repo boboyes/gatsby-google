@@ -46,7 +46,7 @@
   height: 28px;
   border-radius: 50%;
   transition: all .2s .5s;
-  background-image: url('/static/icon_more_vert.svg');
+  background-image: url('../static/icon_more_vert.svg');
   opacity: 0;
 }
 .logo{

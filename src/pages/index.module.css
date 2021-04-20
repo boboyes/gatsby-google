@@ -16,7 +16,7 @@
   width: 272px;
   height: 92px;
   margin-bottom: 50px;
-  background-image: url('/static/google_logo.svg');
+  background-image: url('../static/google_logo.svg');
 }
 .listBox{
   display: flex;

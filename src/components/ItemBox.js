@@ -21,7 +21,7 @@ export default function ItemBox({removeItem,ite,state,setstate,settitle,setdialo
     console.log(e,9999999999)
     // seturl('http://www.google.com/s2/favicons?domain='+ite.url)
     const id = parseInt(Math.random() * 100) % 3
-    seturl('/static/default' + id + '.png')
+    seturl('/default' + id + '.png')
   }
   return (
     <a className={item.box} href={ite.url}>
